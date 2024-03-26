@@ -137,6 +137,8 @@ import WizardPage from './WizardPage';
 import {Switch} from 'react-router-dom';
 import {navigations2route} from './App';
 
+import ExampleDesignStand from './ExampleDesignStand';
+
 export const examples = [
   {
     // prefix: ({classnames: cx}) => <li className={cx('AsideNav-divider')} />,
@@ -957,7 +959,8 @@ export const examples = [
       //   component: TestComponent
       // }
     ]
-  }
+  },
+  ExampleDesignStand
 ];
 
 export default class Example extends React.PureComponent {

@@ -68,6 +68,7 @@ export default [
       './scss/themes/antd.scss',
       './scss/themes/ang.scss',
       './scss/themes/cxd.scss',
+      './scss/themes/blx.scss',
       './scss/themes/dark.scss',
       './scss/themes/default.scss',
       './scss/helper.scss'

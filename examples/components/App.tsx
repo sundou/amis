@@ -60,6 +60,11 @@ const themes = [
     value: 'ang'
   },
   {
+    label: '蓝犀',
+    ns: 'blx-',
+    value: 'blx'
+  },
+  {
     label: '暗黑',
     ns: 'dark-',
     value: 'dark'
