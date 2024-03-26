@@ -130,7 +130,7 @@ export default {
         actionType: 'dialog',
         label: '新增',
         icon: 'fa fa-plus pull-left',
-        primary: true,
+        level: 'primary',
         dialog: {
           title: '新增',
           body: {
@@ -204,11 +204,11 @@ export default {
       {
         type: 'drag-toggler',
         align: 'right'
-      },
-      {
-        type: 'pagination',
-        align: 'right'
       }
+      // {
+      //   type: 'pagination',
+      //   align: 'right'
+      // }
     ],
     footerToolbar: ['statistics', 'switch-per-page', 'pagination'],
     // rowClassNameExpr: '<%= data.id == 1 ? "bg-success" : "" %>',

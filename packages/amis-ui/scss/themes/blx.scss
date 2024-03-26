@@ -3,3 +3,18 @@
 @import '../components';
 @import './blx-variables';
 @import './common';
+
+:root {
+  --button-enhance-hover-bg-color: #ecf2fe;
+}
+
+.blx-Button--danger {
+  border: solid 1px var(--colors-error-5);
+  background-color: #fff;
+  color: var(--colors-error-5);
+}
+.blx-Button--danger:not(:disabled):not(.is-disabled):hover {
+  border: solid 1px var(--colors-error-6);
+  background-color: var(--colors-error-10);
+  color: var(--colors-error-5);
+}
