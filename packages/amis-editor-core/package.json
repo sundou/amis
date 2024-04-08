@@ -1,6 +1,6 @@
 {
   "name": "amis-editor-core",
-  "version": "6.3.0",
+  "version": "6.3.1",
   "description": "amis 可视化编辑器",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -47,7 +47,7 @@
     "static"
   ],
   "dependencies": {
-    "amis-theme-editor-helper": "*",
+    "amis-theme-editor-helper": "^6.3.1",
     "axios": "0.21.1",
     "deep-diff": "1.0.2",
     "json-ast-comments": "^1.1.0",
